@@ -279,14 +279,19 @@ body{
 }
 .contact-op{
     display: flex;
+    padding:5rem;
 }
 .contact-form{
     margin-left: 15rem;
+    width: 40rem;
     border-right: 1px solid #FFA588;
 }
-/* .contact-det{
- 
-} */
+.contact-det p i{
+    padding-right: 2rem;
+}
+.contact-det p i:hover{
+    color: #FFA588;
+}
 .home:hover{
     opacity: 0.5;
 }
@@ -326,3 +331,62 @@ body{
         border-color: white;
         color: #FFA588;
 }
+.contact-name{
+    background-color: #202124;
+    border: 3px solid #FFA588;
+    border-radius: 7px;
+    width:30rem;
+    height: 5rem;
+}
+.contact-email::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-left: 3rem;
+    color: #FFA588;
+}
+.contact-email{
+    background-color: #202124;
+    margin-top: 5rem;
+    border: 3px solid #FFA588;
+    border-radius: 7px;
+    width:30rem;
+    height: 5rem;
+}
+.contact-message{
+    background-color: #202124;
+    margin-top: 5rem;
+    border: 3px solid #FFA588;
+    border-radius: 7px;
+    width:30rem;
+    height: 8rem;
+}
+.contact-name::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-left: 3rem;
+    color: #FFA588;
+}
+.contact-message::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-left: 3rem;
+    color: #FFA588;
+}
+input.contact-name{
+    caret-color: red;
+    font-size: 32px;
+    color: #FFA588;
+}
+input.contact-email{
+    caret-color: red;
+    font-size: 32px;
+    color: #FFA588;
+  }
+input.contact-message{
+    caret-color: red;
+    font-size: 32px;
+    color: #FFA588;
+  }
